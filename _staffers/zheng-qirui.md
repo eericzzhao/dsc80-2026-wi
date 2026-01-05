@@ -1,8 +1,7 @@
 ---
-name: Qirui Zheng (Sara)
+name: Qirui (Sara) Zheng
 role: Tutor
 pronouns: she/her
-email: 
 photo: assets/staff-images/zheng-qirui.jpg
 description: 4th year, Data Science & Cognitive Science Spec in ML, Seventh
 hometown: San Francisco, CA
