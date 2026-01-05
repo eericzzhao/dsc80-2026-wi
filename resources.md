@@ -38,7 +38,7 @@ Both of these videos were recorded in previous iterations of the course, but are
 
 ### Articles and Visual Explainers
 
-- [Views and Copies in `pandas`](https://www.practicaldatascience.org/html/views_and_copies_in_pandas.html). A great read if you'd like to learn more about the infamous `SettingWithCopyWarning`.
+- [Views and Copies in `pandas`](https://www.practicaldatascience.org/notebooks/class_3/week_3/10_views_and_copies_numpy_review.html). A great read if you'd like to learn more about the infamous `SettingWithCopyWarning`.
 - [Permutation Testing Visualization](https://www.jwilber.me/permutationtest/).
 - [A Visual Introduction to Machine Learning](https://narrative-flow.github.io/exploratory-study-1/). 
 - [MLU Explain](https://mlu-explain.github.io/). A collection of interactive articles prepared by [Jared Wilber](https://www.jwilber.me/) explaining core machine learning ideas, like cross-validation, random forests, and precision and recall.
