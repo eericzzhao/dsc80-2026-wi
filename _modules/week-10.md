@@ -14,6 +14,12 @@ days:
     type: lecture
     title: Classifier Evaluation and Model Fairness
     reading: '[Ch. 16](https://learningds.org/ch/16/ms_intro.html)'
+- date: '2026-03-11'
+  events:
+  - name: DISC 10
+    type: disc
+    title: 'Discussion 10: Lab 9 Solutions Review'
+    reading: ''
 - date: '2026-03-12'
   events:
   - name: LEC 19

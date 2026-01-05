@@ -10,8 +10,8 @@ days:
     reading: ''
 - date: '2026-03-17'
   events:
-  - name: FINAL PROJ
+  - name: PROJ 4
     type: proj
-    title: Final Project
+    title: Project 4
     reading: ''
 ---

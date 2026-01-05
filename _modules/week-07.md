@@ -1,5 +1,5 @@
 ---
-title: "Week 7 \u2013 Text data, Modeling"
+title: "Week 7 \u2013 Text and Modeling"
 weekNumber: 7
 days:
 - date: '2026-02-16'
@@ -14,6 +14,12 @@ days:
     type: lecture
     title: Text Features
     reading: '[Ch. 13.4](https://learningds.org/ch/13/text_sotu.html)'
+- date: '2026-02-18'
+  events:
+  - name: DISC 7
+    type: disc
+    title: 'Discussion 7: Lab 6 Solutions Review'
+    reading: ''
 - date: '2026-02-19'
   events:
   - name: LEC 13

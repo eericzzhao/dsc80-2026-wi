@@ -1,5 +1,5 @@
 ---
-title: "Week 5 \u2013 HTTP"
+title: "Week 5 \u2013 HTTP and HTML"
 weekNumber: 5
 days:
 - date: '2026-02-02'
@@ -14,6 +14,12 @@ days:
     type: lecture
     title: HTTP Basics
     reading: '[Ch. 14.2-14.4](https://learningds.org/ch/14/web_json.html)'
+- date: '2026-02-04'
+  events:
+  - name: DISC 5
+    type: disc
+    title: 'Discussion 5: Lab 4 Solutions Review'
+    reading: ''
 - date: '2026-02-05'
   events:
   - name: LEC 10

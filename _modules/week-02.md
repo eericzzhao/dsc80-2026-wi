@@ -14,6 +14,12 @@ days:
     type: lecture
     title: Aggregating
     reading: '[Ch. 6.2](https://learningds.org/ch/06/pandas_aggregating.html)'
+- date: '2026-01-14'
+  events:
+  - name: DISC 2
+    type: disc
+    title: 'Discussion 2: Lab 1 Solutions Review'
+    reading: ''
 - date: '2026-01-15'
   events:
   - name: LEC 4
@@ -24,6 +30,6 @@ days:
   events:
   - name: PROJ 1
     type: proj
-    title: Project 1 checkpoint
+    title: Project 1 Checkpoint
     reading: ''
 ---

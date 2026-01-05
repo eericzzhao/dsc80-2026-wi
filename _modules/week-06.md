@@ -1,8 +1,8 @@
 ---
-title: "Week 6 \u2013 Web data"
+title: "Week 6 \u2013 Midterm, Regular Expressions"
 weekNumber: 6
 days:
-- date: '2026-02-09'
+- date: '2026-02-08'
   events:
   - name: LAB 5
     type: lab
@@ -14,6 +14,12 @@ days:
     type: exam
     title: Midterm Exam
     reading: ''
+- date: '2026-02-11'
+  events:
+  - name: DISC 6
+    type: disc
+    title: 'Discussion 6: Midterm Exam Solutions Review'
+    reading: ''
 - date: '2026-02-12'
   events:
   - name: LEC 11
@@ -24,6 +30,6 @@ days:
   events:
   - name: PROJ 3
     type: proj
-    title: Project 3 checkpoint
+    title: Project 3 Checkpoint
     reading: ''
 ---

@@ -14,6 +14,12 @@ days:
     type: lecture
     title: Exploring and Cleaning Data
     reading: '[Ch. 9](https://learningds.org/ch/09/wrangling_intro.html) and [10](https://learningds.org/ch/10/eda_intro.html)'
+- date: '2026-01-21'
+  events:
+  - name: DISC 3
+    type: disc
+    title: 'Discussion 3: Lab 2 Solutions Review'
+    reading: ''
 - date: '2026-01-22'
   events:
   - name: LEC 6

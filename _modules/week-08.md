@@ -14,6 +14,12 @@ days:
     type: lecture
     title: Feature Engineering
     reading: '[Ch. 15.7-15.9](https://learningds.org/ch/15/linear_feature_eng.html)'
+- date: '2026-02-25'
+  events:
+  - name: DISC 8
+    type: disc
+    title: 'Discussion 8: Lab 7 Solutions Review'
+    reading: ''
 - date: '2026-02-26'
   events:
   - name: LEC 15
@@ -22,8 +28,8 @@ days:
     reading: '[Ch. 16](https://learningds.org/ch/16/ms_train_test.html), [17.6](https://learningds.org/ch/17/inf_pred_gen_prob.html)'
 - date: '2026-02-27'
   events:
-  - name: FINAL PROJ
+  - name: PROJ 4
     type: proj
-    title: Final Project Checkpoint 1
+    title: Project 4 Checkpoint 1
     reading: ''
 ---

@@ -14,6 +14,12 @@ days:
     type: lecture
     title: Missingness Mechanisms
     reading: '[A1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4121561/), [A2](https://stefvanbuuren.name/fimd/sec-MCAR.html)'
+- date: '2026-01-28'
+  events:
+  - name: DISC 4
+    type: disc
+    title: 'Discussion 4: Lab 3 Solutions Review'
+    reading: ''
 - date: '2026-01-29'
   events:
   - name: LEC 8
@@ -24,6 +30,6 @@ days:
   events:
   - name: PROJ 2
     type: proj
-    title: Project 2 checkpoint
+    title: Project 2 Checkpoint
     reading: ''
 ---

@@ -14,6 +14,12 @@ days:
     type: lecture
     title: Hyperparameters, Cross-Validation, and Decision Trees
     reading: '[Ch. 16](https://learningds.org/ch/16/ms_intro.html)'
+- date: '2026-03-04'
+  events:
+  - name: DISC 9
+    type: disc
+    title: 'Discussion 9: Lab 8 Solutions Review'
+    reading: ''
 - date: '2026-03-05'
   events:
   - name: LEC 17
@@ -22,8 +28,8 @@ days:
     reading: '[A1](resources/other/15097-decision-trees.pdf)'
 - date: '2026-03-06'
   events:
-  - name: FINAL PROJ
+  - name: PROJ 4
     type: proj
-    title: Final Project Checkpoint 2
+    title: Project 4 Checkpoint 2
     reading: ''
 ---
