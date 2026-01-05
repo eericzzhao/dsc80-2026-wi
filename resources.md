@@ -21,7 +21,7 @@ Some past exams with detailed solutions can be found at [practice.dsc80.com](htt
 ## Videos
 
 Both of these videos were recorded in previous iterations of the course, but are still useful.
-- [DSC 80 Environment Setup and Assignment Workflow] (https://www.loom.com/share/0ea254b85b2745e59322b5e5a8692e91?sid=b77c5c2d-0c24-40fb-8cfc-8574d49d9019).
+- [DSC 80 Environment Setup and Assignment Workflow](https://www.loom.com/share/0ea254b85b2745e59322b5e5a8692e91?sid=b77c5c2d-0c24-40fb-8cfc-8574d49d9019).
 - [Working with the command-line in DSC 80](https://www.youtube.com/watch?v=uUawZfAgA64).
 
 ---
@@ -34,14 +34,15 @@ Both of these videos were recorded in previous iterations of the course, but are
 - [DSC 80 Course Notes](https://notes.dsc80.com). These notes were originally written for DSC 80 but have not been updated in a few years. **Some of our supplemental readings will come from here.**
 - [Python for Data Analysis](https://wesmckinney.com/book/). A classic foundational guide, written by the creator of `pandas` himself, Wes McKinney. 
 - [DSC 10 Course Notes](https://notes.dsc10.com). A great refresher on `babypandas`.
-- [Computational and Inferential Thinking](https://www.inferentialthinking.com). The textbook for Berkeley's [Data 8](https://data8.org) course and the second half of DSC 10.
+- [Computational and Inferential Thinking](https://www.inferentialthinking.com). The textbook for Berkeley's [Data 8](http://data8.org) course and the second half of DSC 10.
 
-### Articles
+### Articles and Visual Explainers
 
 - [Views and Copies in `pandas`](https://www.practicaldatascience.org/html/views_and_copies_in_pandas.html). A great read if you'd like to learn more about the infamous `SettingWithCopyWarning`.
 - [Permutation Testing Visualization](https://www.jwilber.me/permutationtest/).
-- [A Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) and [Model Tuning and the Bias-Variance Tradeoff](http://www.r2d3.us/visual-intro-to-machine-learning-part-2/). Excellent visual descriptions of the last few weeks of the course (some terminology is different, but the ideas are the same).
-- [MLU Explain](https://mlu-explain.github.io/). A collection of interactive articles (prepared by [Jared Wilber](https://www.jwilber.me/)) explaining core machine learning ideas, like cross-validation, random forests, and precision and recall.
+- [A Visual Introduction to Machine Learning](https://narrative-flow.github.io/exploratory-study-1/). 
+- [MLU Explain](https://mlu-explain.github.io/). A collection of interactive articles prepared by [Jared Wilber](https://www.jwilber.me/) explaining core machine learning ideas, like cross-validation, random forests, and precision and recall.
+- [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/). Ideas in machine learning, explained simply.
 
 ### Other Links
 - [Pandas Tutor](https://pandastutor.com). A tool to help you visualize DataFrame manipulations.
@@ -51,6 +52,6 @@ Both of these videos were recorded in previous iterations of the course, but are
 
 ## Regular Expressions
 
-- [regex101.com](https://regex101.com), a helpful site to have open while writing regular expressions.
+- [regex101.com](https://regex101.com). A helpful site to have open while writing regular expressions.
 - Python [`re` library documentation](https://docs.python.org/3/library/re.html) and [how-to](https://docs.python.org/3/howto/regex.html).
-- [regex "cheat sheet"](/resources/other/berkeley-regex-reference.pdf) (taken from [here](https://ds100.org/sp22/resources/)).
+- [regex "cheat sheet"](/resources/other/berkeley-regex-reference.pdf). Originally from Berkeley's [Data 100](https://ds100.org) course.

@@ -224,4 +224,4 @@ Many students like to use VSCode to edit Jupyter Notebooks. If that's you, then 
 1. Click "Select Kernel" in the top right corner of the window.
 1. Click "Python Environments" in the toolbar that appears in the middle.
 1. Select "dsc80 (Python 3.12.12)".
-    <center><img src="../assets/images/ts-dsc80-conda.jpg" width=500></center>
+    <center><img src="../assets/images/ts-dsc80-conda.jpg" width=300></center>
