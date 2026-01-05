@@ -23,7 +23,7 @@ There has been a lot written about how to set up a Python environment, so we won
 
 ---
 
-[This video](https://www.loom.com/share/0ea254b85b2745e59322b5e5a8692e91?sid=b77c5c2d-0c24-40fb-8cfc-8574d49d9019) walks through most of the steps here, but it's **not** a substitute for reading this page carefully.
+[This video](https://www.loom.com/share/0ea254b85b2745e59322b5e5a8692e91?sid=b77c5c2d-0c24-40fb-8cfc-8574d49d9019) from a previous iteration of the course walks through most of the steps here, but it's **not** a substitute for reading this page carefully.
 
 <div style="position: relative; padding-bottom: 64.92335437330928%; height: 0;"><iframe src="https://www.loom.com/embed/0ea254b85b2745e59322b5e5a8692e91?sid=96bb8188-9783-4878-bc1a-5f6946b20a61" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -62,7 +62,9 @@ The way to do this depends on whether you're on a Unix-like platform (macOS or L
     curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
     ```
 
-    This will place a file named something like `Miniforge3-Darwin-arm64.sh` wherever you ran the command. If you get an error saying `command not found: curl`, replace `curl -L -O` with `wget` and re-run the same command.
+    This will place a file named something like `Miniforge3-Darwin-arm64.sh` wherever you ran the command. 
+
+If you get an error saying `command not found: curl`, replace `curl -L -O` with `wget` and re-run the same command.
 
 2. Run the installer. To do this, immediately after the last command, run:
 
@@ -73,7 +75,7 @@ The way to do this depends on whether you're on a Unix-like platform (macOS or L
 **Windows**:
 
 1. Download the Windows install script from [here](https://github.com/conda-forge/miniforge?tab=readme-ov-file#windows). The file should be named `Miniforge3-Windows-x86_64.exe` or similar.
-2. Run the downloaded `.exe` file. Follow the prompts, taking note of the options to "Create start menu shortcut" and "Add Miniforge3 to my PATH environment variable". The latter is not selected by default due to potential conflicts with other software, but you will want to select it. This allows you to easily run `mamba` commands from from terminals other than the just-installed Miniforge Prompt.
+2. Run the downloaded `.exe` file. Follow the prompts, taking note of the options to "Create start menu shortcut" and "Add Miniforge3 to my PATH environment variable". The latter is not selected by default, but you will want to select it. This allows you to easily run `mamba` commands from from terminals other than the just-installed Miniforge Prompt.
 3. From the Start Menu, open the Miniforge Prompt and run:
     ```
     conda init
@@ -93,7 +95,11 @@ To create the environment, in your terminal, run:
 mamba env create -f <path_to_file>
 ```
 
-Here, `<path_to_file>` should be replaced with a path to the `environment.yml` file you just downloaded, which might be in your Downloads or Desktop folder. For example: `mamba env create -f /Users/yourusername/Desktop/environment.yml`. If you get an error saying `environment.yml` does not exist, you probably have the wrong path to the file.
+Here, `<path_to_file>` should be replaced with a path to the `environment.yml` file you just downloaded, which might be in your Downloads or Desktop folder. For example: `mamba env create -f /Users/yourusername/Desktop/environment.yml`. 
+
+If you get an error saying `environment.yml` does not exist, you probably have the wrong path to the file.
+
+If you get an error saying `mamba` isn't defined, try closing and reopening your terminal first and then rerunning the command.
 
 ### Step 4: Activate the environment
 
