@@ -22,8 +22,7 @@ nav_order: 2
 [campuswire]: https://campuswire.com/p/GFDCC5DB7
 [gradescope]: https://www.gradescope.com/courses/1209672
 [github]: https://github.com/dsc-courses/dsc80-2026-wi
-[welcome-survey]: google.com
-
+[welcome-survey]: https://forms.gle/byE5q4b1iKsBzEwN7
 
 ## About 🧐
 
@@ -250,7 +249,7 @@ though the Final Exam will emphasize material after the Midterm Exam.
 
 **Both exams will be administered in-person**. If you have conflicts with
 either of the exams, please let us know on the [Welcome
-Survey](https://docs.google.com/forms/d/e/1FAIpQLScGBRJrHxMPa8ix46FFDPxn9UhQoVhWOKMQ41ZTypWoj_OEAA/viewform?usp=sf_link).
+Survey][welcome-survey].
 
 ### Exam Redemption
 

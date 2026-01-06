@@ -13,18 +13,16 @@ nav_order: 1
 
 {{ site.staffersnobio }}
 
-[syllabus]: syllabus
+[syllabus]: https://dsc80.com/syllabus
 [campuswire]: https://campuswire.com/c/GFDCC5DB7
 [gradescope]: https://www.gradescope.com/courses/1209672
 [github]: https://github.com/dsc-courses/dsc80-2026-fa
-[welcome-survey]: google.com
+[welcome-survey]: https://forms.gle/byE5q4b1iKsBzEwN7
 
-[Jump to the current week](#week-1-dataframes){: .btn } 
+[Jump to the current week](#week-1-from-babypandas-to-pandas){: .btn } 
 [Podcasts](https://podcast.ucsd.edu/){: .btn }
 [Welcome Survey][welcome-survey]{: .btn }
 
-{: .warning }
-This site is **under construction**. Anything you read here is not finalized. This disclaimer will be removed when the site is ready for Winter 2026. 
 
 {: .success }
 **Welcome to DSC 80! 👋 Make sure to read the [syllabus][syllabus], check that you can access [Gradescope][gradescope] and [Campuswire][campuswire], and fill out the [Welcome Survey][welcome-survey].**
