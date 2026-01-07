@@ -12,4 +12,4 @@ Office hours will be held in person in Room 155 of the <a href="https://map.conc
 {: .note }
 Come back soon to see when office hours will be held!
 
-<iframe src="https://calendar.google.com/calendar/embed?src=c_256fc13669087ff298adea559179e197d1ee76d29b0ea9d6706c9cd961d9fce6%40group.calendar.google.com&ctz=America%2FLos_Angeles&title&showNav=1&mode=WEEK&showPrint=0" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=c_0c85f66fe1a65ae0b8b5f030b4268aad2ff3d13e787ac059ce40c1b80c1f0b69%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
