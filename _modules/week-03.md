@@ -7,6 +7,7 @@ days:
   - name: LAB 2
     type: lab
     title: DataFrames and Grouping
+    url: https://github.com/dsc-courses/dsc80-2026-wi/blob/main/labs/lab02/lab.ipynb
     reading: ''
 - date: '2026-01-20'
   events:
@@ -31,5 +32,6 @@ days:
   - name: PROJ 1
     type: proj
     title: Project 1
+    url: https://github.com/dsc-courses/dsc80-2026-wi/blob/main/projects/proj01/project.ipynb
     reading: ''
 ---
