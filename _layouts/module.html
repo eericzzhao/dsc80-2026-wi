@@ -1,4 +1,4 @@
-<div class="module">
+<div class="module"{% if page.days %} data-week-start="{{ page.days.first.date }}" data-week-end="{{ page.days.last.date }}"{% endif %}>
   <h3 class="module-header" id="{{ page.title | slugify }}">{{ page.title }}</h3>
   {% if page.days %}
   <dl class="module-days">
