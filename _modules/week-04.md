@@ -7,6 +7,7 @@ days:
   - name: LAB 3
     type: lab
     title: Merging and Pivoting
+    url: https://github.com/dsc-courses/dsc80-2026-wi/blob/main/labs/lab03/lab.ipynb
     reading: ''
 - date: '2026-01-27'
   events:
