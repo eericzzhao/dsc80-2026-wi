@@ -29,6 +29,7 @@ days:
     title: Hypothesis and Permutation Testing
     reading: '[Ch. 17](https://learningds.org/ch/17/inf_pred_gen_intro.html)'
     html: resources/lectures/lec06/lec06.html
+    review: resources/lectures/lec06/review.html
 - date: '2026-01-23'
   events:
   - name: PROJ 1
