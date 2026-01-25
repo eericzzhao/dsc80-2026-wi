@@ -30,7 +30,7 @@ days:
   events:
   - name: PROJ 2
     type: proj
-    title: Project 2
+    title: Loans 💸
     url: https://github.com/dsc-courses/dsc80-2026-wi/blob/main/projects/proj02/project.ipynb
     reading: ''
 ---

@@ -13,7 +13,7 @@ nav_order: 1
 
 {{ site.staffersnobio }}
 
-[syllabus]: https://dsc80.com/syllabus
+[syllabus]: https://dsc80.com/syllabus 
 [campuswire]: https://campuswire.com/c/GFDCC5DB7
 [gradescope]: https://www.gradescope.com/courses/1209672
 [github]: https://github.com/dsc-courses/dsc80-2026-fa
