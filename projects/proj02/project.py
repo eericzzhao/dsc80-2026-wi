@@ -37,7 +37,22 @@ warnings.filterwarnings("ignore")
 
 
 def clean_loans(loans):
-    ...
+    cleaned = loans.copy()
+
+    cleaned["issue_d"] = pd.to_datetime(cleaned["issue_d"])
+    cleaned["term"] = cleaned["term"].astype(str).str.extract(r"(\d+)").astype(int)
+
+    cleaned["emp_title"] = cleaned["emp_title"].str.lower().str.strip()
+    cleaned["emp_title"] = cleaned["emp_title"].replace("rn", "registered nurse")
+
+    def add_months(m):
+        return pd.DateOffset(months=int(m))
+
+    cleaned["term_end"] = cleaned["issue_d"] + cleaned["term"].map(add_months)
+
+    return cleaned
+
+
 
 
 # ---------------------------------------------------------------------
@@ -46,7 +61,16 @@ def clean_loans(loans):
 
 
 def correlations(df, pairs):
-    ...
+    rs = []
+    names = []
+
+    for col1, col2 in pairs:
+        r = df[col1].corr(df[col2]) # pearson correlation on the dti, interest rate to the annual income, credit score
+        rs.append(r)
+        names.append(f'r_{col1}_{col2}') # 
+
+    return pd.Series(data=rs, index=names)
+
 
 
 # ---------------------------------------------------------------------
@@ -55,7 +79,35 @@ def correlations(df, pairs):
 
 
 def create_boxplot(loans):
-    ...
+    score_range = []
+    for score in loans["fico_range_low"]:
+        if score < 670:
+            score_range.append("[580, 670)")
+        elif score < 740:
+            score_range.append("[670, 740)")
+        elif score < 800:
+            score_range.append("[740, 800)")
+        else:
+            score_range.append("[800, 850)")
+
+    fig = px.box(
+        loans,
+        x=score_range,
+        y="int_rate",
+        color="term",
+        category_orders={"x": ["[580, 670)", "[670, 740)", "[740, 800)", "[800, 850)"]},
+        labels={
+            "x": "Credit Score Range",
+            "int_rate": "Interest Rate (%)",
+            "term": "Loan Length (Months)"
+        },
+        title="Interest Rate vs. Credit Score",
+        color_discrete_map={36: "purple", 60: "gold"}
+    )
+
+    fig.update_layout(legend_title_text="Loan Length (Months)")
+    return fig
+
 
 
 # ---------------------------------------------------------------------
@@ -64,13 +116,32 @@ def create_boxplot(loans):
 
 
 def ps_test(loans, N):
-    ...
+    df = loans.copy()
+
+    has_ps = df["desc"].notna()
+    observed = (
+        df.loc[has_ps, "int_rate"].mean() - df.loc[~has_ps, "int_rate"].mean()
+    )
+
+    diffs = []
+    for _ in range(N):
+        shuffled = has_ps.sample(frac=1, replace=False).reset_index(drop=True)
+        diff = (
+            df.loc[shuffled, "int_rate"].mean()
+            - df.loc[~shuffled, "int_rate"].mean()
+        )
+        diffs.append(diff)
+
+    diffs = np.array(diffs)
+    p_value = np.mean(diffs >= observed)
+
+    return p_value
     
 def missingness_mechanism():
-    ...
-    
+    return 2
+
 def other_missingness():
-    ...
+    return 2
 
 
 # ---------------------------------------------------------------------
